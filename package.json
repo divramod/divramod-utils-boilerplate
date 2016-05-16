@@ -1,0 +1,41 @@
+{
+    "private": false,
+    "name": "divramod-utils-boilerplate",
+    "shortcut": "dub",
+    "version": "0.0.0",
+    "description": "helps copy the boilerplates i created to use them in projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --harmony --require co-mocha --watch --reporter landing",
+        "start": "node --harmony ./bin/divramod-utils-boilerplate"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/divramod/divramod-utils-boilerplate.git"
+    },
+    "keywords": [
+        "npm",
+        "template"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/divramod/divramod-utils-boilerplate/issues"
+    },
+    "homepage": "https://github.com/divramod/divramod-utils-boilerplate",
+    "dependencies": {
+        "chai": "^2.1.0",
+        "co": "^4.4.0",
+        "co-mocha": "^1.1.0",
+        "colors": "^1.1.2",
+        "dm-npm": "^0.1.14",
+        "mocha": "^2.1.0",
+        "shelljs": "^0.5.3"
+    },
+    "bin": {
+        "dub": "./bin/divramod-utils-boilerplate",
+        "divramod-utils-boilerplate": "./bin/divramod-utils-boilerplate",
+        "gdub": "./bin/gdivramod-utils-boilerplate",
+        "dubg": "./bin/gdivramod-utils-boilerplate"
+    }
+}
