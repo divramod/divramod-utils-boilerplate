@@ -2,7 +2,7 @@
     "private": false,
     "name": "divramod-utils-boilerplate",
     "shortcut": "dub",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "helps copy the boilerplates i created to use them in projects",
     "main": "index.js",
     "scripts": {
